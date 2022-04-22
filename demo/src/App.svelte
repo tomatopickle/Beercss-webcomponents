@@ -43,6 +43,17 @@
 
   <h4>Inputs</h4>
   <b-input label="Label" />
+  <b-input label="Search" prefix={{
+    type: "icon",
+    name: "search",
+  }}/>
+  <b-input
+    placeholder="Message as tomatopickle"
+    prefix={{
+      type: "image",
+      src: "https://avatars.githubusercontent.com/u/65482369?s=40&v=4",
+    }}
+  />
   <br /><br />
 
   <h4>Checkbox</h4>
@@ -66,7 +77,7 @@
       src="https://avatars.githubusercontent.com/u/72658023?s=120&v=4"
       class="responsive"
     />
-    <span>Amaan</span>
+    <span>Aman</span>
   </div>
   <div class="chip round small">
     <img
@@ -80,7 +91,7 @@
       src="https://avatars.githubusercontent.com/u/72658023?s=120&v=4"
       class="responsive"
     />
-    <span>Amaan</span>
+    <span>Aman</span>
   </div>
   <br /><br />
 </main>
