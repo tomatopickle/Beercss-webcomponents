@@ -50,8 +50,39 @@
     <b-checkbox class="small-margin" label="Label" />
     <b-checkbox class="small-margin" disabled label="Disabled" />
     <b-checkbox class="small-margin" checked label="Checked" />
-
   </div>
+  <br /><br />
+
+  <h4>Chips</h4>
+  <div class="chip  small">
+    <img
+      src="https://avatars.githubusercontent.com/u/65482369?s=40&v=4"
+      class="responsive"
+    />
+    <span>Abaan</span>
+  </div>
+  <div class="chip border  small">
+    <img
+      src="https://avatars.githubusercontent.com/u/72658023?s=120&v=4"
+      class="responsive"
+    />
+    <span>Amaan</span>
+  </div>
+  <div class="chip round small">
+    <img
+      src="https://avatars.githubusercontent.com/u/65482369?s=40&v=4"
+      class="responsive"
+    />
+    <span>Abaan</span>
+  </div>
+  <div class="chip border round small">
+    <img
+      src="https://avatars.githubusercontent.com/u/72658023?s=120&v=4"
+      class="responsive"
+    />
+    <span>Amaan</span>
+  </div>
+  <br /><br />
 </main>
 
 <style>
