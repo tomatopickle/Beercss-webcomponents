@@ -9,7 +9,15 @@
 <div class={"modal " + (open ? "active " : "") + position}>
   <slot />
 </div>
+<div class={"overlay " + (open ? "active " : "")} />
 
 <style>
   @import "./cdn/beer.min.css";
+  /* 
+  For now, I have to add this manually to prevent the modal coming behind the overlay 
+  See: https://github.com/beercss/beercss/pull/56 
+  */
+  .overlay {
+    z-index: 95;
+  }
 </style>
