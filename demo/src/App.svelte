@@ -43,10 +43,13 @@
 
   <h4>Inputs</h4>
   <b-input label="Label" />
-  <b-input label="Search" prefix={{
-    type: "icon",
-    name: "search",
-  }}/>
+  <b-input
+    label="Search"
+    prefix={{
+      type: "icon",
+      name: "search",
+    }}
+  />
   <b-input
     placeholder="Message as tomatopickle"
     prefix={{
@@ -94,6 +97,27 @@
     <span>Aman</span>
   </div>
   <br /><br />
+
+  <h4>Modals</h4>
+  <br /><br />
+  <b-button
+    on:click={() => {
+      document.getElementById("modal").open = true;
+    }}>Open Modal</b-button
+  >
+  <b-modal id="modal">
+    <h5>Title</h5>
+    <div>Complementary text</div>
+    <nav
+      class="right-align"
+      on:click={() => {
+        document.getElementById("modal").open = false;
+      }}
+    >
+      <button class="border">Cancel</button>
+      <button>Confirm</button>
+    </nav>
+  </b-modal>
 </main>
 
 <style>
